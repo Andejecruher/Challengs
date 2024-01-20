@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Blog Card by Antonio Cruz Hernández</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body class="flex items-center justify-center h-screen">
+    <div class="bg-white p-16">
+      <!-- Contenido de tu tarjeta -->
+      <div class="container mx-4 my-4">
+        <!-- tailwind card component -->
+        <div class="border card-custom">
+          <div class="header-card">
+            <div class="container-img">
+              <img src="./cactus_img.jpg" class="w-full img-card" alt="..." />
+            </div>
+          </div>
+          <div class="content-card">
+            <button class="button-card">Design</button>
+            <h5 class="title-card">Embracing Minimalism</h5>
+            <p class="text-card">
+              From minimalist sculptures to minimalist paintings, this blog will
+              inspire you to appreciate the beauty that lies in simplicity.
+            </p>
+          </div>
+          <div class="divider-card"></div>
+          <div class="footer-card">
+            <a href="#" class="text-footer">Annie Spratt</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
